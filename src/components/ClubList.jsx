@@ -2,6 +2,34 @@ import { useState } from 'react'
 import { CLUBS } from '../clubs.js'
 import './ClubList.css'
 
+function ClubLogo({ club }) {
+  const [src, setSrc] = useState(club.logo)
+  const [failed, setFailed] = useState(false)
+
+  if (failed) {
+    return (
+      <div className="club-logo-fallback" style={{ color: club.color }}>
+        {club.short.slice(0, 3).toUpperCase()}
+      </div>
+    )
+  }
+
+  return (
+    <img
+      src={src}
+      alt={`Logo ${club.name}`}
+      className="club-logo"
+      onError={() => {
+        if (src === club.logo && club.logoPng) {
+          setSrc(club.logoPng)
+        } else {
+          setFailed(true)
+        }
+      }}
+    />
+  )
+}
+
 export default function ClubList({ onSelect }) {
   const [search, setSearch] = useState('')
 
@@ -33,21 +61,7 @@ export default function ClubList({ onSelect }) {
         {filtered.map(club => (
           <button key={club.slug} className="club-card" onClick={() => onSelect(club)}>
             <div className="club-logo-wrap" style={{ background: club.bg }}>
-              <img
-                src={club.logo}
-                alt={`Logo ${club.name}`}
-                className="club-logo"
-                onError={e => {
-                  e.target.style.display = 'none'
-                  e.target.nextSibling.style.display = 'flex'
-                }}
-              />
-              <div
-                className="club-logo-fallback"
-                style={{ color: club.color, display: 'none' }}
-              >
-                {club.short.slice(0, 3).toUpperCase()}
-              </div>
+              <ClubLogo club={club} />
             </div>
             <div className="club-info">
               <div className="club-name">{club.name}</div>
