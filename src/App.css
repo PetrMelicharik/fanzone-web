@@ -1,0 +1,95 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background: #fff;
+  border-bottom: 1px solid #E5E5EA;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+}
+
+.app-header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.app-logo-img {
+  height: 44px;
+  width: auto;
+}
+
+.app-logo-title {
+  font-size: 22px;
+  font-weight: 800;
+  font-style: italic;
+  background: linear-gradient(135deg, #1565C0 0%, #00BCD4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+}
+
+.app-logo-sub {
+  font-size: 11px;
+  color: #8E8E93;
+  margin-top: 2px;
+}
+
+.back-btn {
+  font-size: 14px;
+  color: #1565C0;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid #BBDEFB;
+  background: #E3F2FD;
+  transition: background 0.15s;
+  font-weight: 500;
+}
+
+.back-btn:hover {
+  background: #BBDEFB;
+}
+
+.app-main {
+  flex: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 24px 20px;
+}
+
+.app-footer {
+  background: #1A1A2E;
+  border-top: none;
+  padding: 16px 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #8E8E93;
+}
+
+.app-footer span {
+  color: #00BCD4;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .app-main { padding: 16px 12px; }
+  .app-logo-title { font-size: 18px; }
+  .app-logo-sub { display: none; }
+}
