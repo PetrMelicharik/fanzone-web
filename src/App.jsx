@@ -13,6 +13,7 @@ export default function App() {
           <div className="app-logo" onClick={() => setSelectedClub(null)} style={{ cursor: 'pointer' }}>
             <img src="/logo.png" alt="Fanzone" className="app-logo-img" />
             <div className="app-logo-text">
+              <div className="app-logo-title">Fanzone</div>
               <div className="app-logo-sub">Zprávy z české fotbalové ligy</div>
             </div>
           </div>

@@ -41,6 +41,17 @@
   flex-direction: column;
 }
 
+.app-logo-title {
+  font-size: 22px;
+  font-weight: 800;
+  font-style: italic;
+  background: linear-gradient(135deg, #1565C0 0%, #00BCD4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+}
+
 .app-logo-sub {
   font-size: 12px;
   color: #8E8E93;
