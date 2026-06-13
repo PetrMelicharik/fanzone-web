@@ -155,6 +155,17 @@ export const CLUBS = [
     keywords: ['Dynamo', 'České Budějovice', 'Dynamo Budějovice'],
   },
   {
+    slug: 'zbrojovka-brno',
+    name: 'FC Zbrojovka Brno',
+    short: 'Zbrojovka',
+    city: 'Brno',
+    color: '#003DA5',
+    bg: '#f0f4ff',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/0/0e/FC_Zbrojovka_Brno_logo.svg',
+    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/fc-zbrojovka-brno.png',
+    keywords: ['Zbrojovka', 'Zbrojovka Brno', 'FC Zbrojovka', 'brněnští'],
+  },
+  {
     slug: 'zizkov',
     name: 'FK Viktoria Žižkov',
     short: 'Žižkov',
@@ -178,7 +189,7 @@ export const CLUBS = [
   },
 ]
 
-export const SOURCES = ['iSport.cz', 'Sport.cz', 'Fotbal.cz', 'ČT Sport', 'Deník.cz', 'inFotbal.cz']
+export const SOURCES = ['iSport.cz', 'Sport.cz', 'ČT Sport']
 
 export const SOURCE_STYLES = {
   'iSport.cz':    { bg: '#FDECEA', color: '#B71C1C' },
