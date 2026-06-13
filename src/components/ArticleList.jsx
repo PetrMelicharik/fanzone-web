@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { getArticlesForClub } from '../api.js'
-import { SOURCE_STYLES, SOURCES } from '../clubs.js'
+import { getSourceStyle, SOURCES } from '../clubs.js'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
 import 'dayjs/locale/cs'
@@ -100,7 +100,7 @@ export default function ArticleList({ club }) {
 }
 
 function ArticleCard({ article }) {
-  const style = SOURCE_STYLES[article.source] || { bg: '#F3F3F3', color: '#444' }
+  const style = getSourceStyle(article.source)
   const isNew = dayjs().diff(dayjs(article.publishedAt), 'hour') < 3
 
   return (

@@ -7,8 +7,7 @@ export const CLUBS = [
     city: 'Praha',
     color: '#CC0000',
     bg: '#fff0f0',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/8/82/SK_Slavia_Prague_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/slavia-prague-logo.png',
+    logo: '/logos/slavia-praha.png',
     keywords: ['Slavia', 'SK Slavia', 'Slavia Praha'],
   },
   {
@@ -18,8 +17,7 @@ export const CLUBS = [
     city: 'Praha',
     color: '#AC1A2F',
     bg: '#fff0f2',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/f/f5/AC_Sparta_Prague_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/sparta-prague-logo.png',
+    logo: '/logos/sparta-praha.png',
     keywords: ['Sparta', 'AC Sparta', 'Sparta Praha'],
   },
   {
@@ -29,8 +27,7 @@ export const CLUBS = [
     city: 'Plzeň',
     color: '#003087',
     bg: '#f0f4ff',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/3/37/FC_Viktoria_Plze%C5%88_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/viktoria-plzen.png',
+    logo: '/logos/viktoria-plzen.png',
     keywords: ['Plzeň', 'Viktoria Plzeň', 'Viktoria Plzen'],
   },
   {
@@ -40,8 +37,7 @@ export const CLUBS = [
     city: 'Ostrava',
     color: '#005CA9',
     bg: '#f0f6ff',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/b/b5/FC_Banik_Ostrava_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/banik-ostrava.png',
+    logo: '/logos/banik-ostrava.png',
     keywords: ['Baník', 'Baník Ostrava', 'Banik Ostrava'],
   },
   {
@@ -51,8 +47,7 @@ export const CLUBS = [
     city: 'Olomouc',
     color: '#003366',
     bg: '#f0f4ff',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/e/e4/SK_Sigma_Olomouc_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/sigma-olomouc.png',
+    logo: '/logos/sigma-olomouc.png',
     keywords: ['Sigma', 'Sigma Olomouc', 'SK Sigma'],
   },
   {
@@ -62,8 +57,7 @@ export const CLUBS = [
     city: 'Praha',
     color: '#007A33',
     bg: '#f0fff4',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/d/db/Bohemians_1905_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/bohemians-1905.png',
+    logo: '/logos/bohemians-1905.png',
     keywords: ['Bohemians', 'Bohemians 1905', 'Bohemka'],
   },
   {
@@ -73,8 +67,7 @@ export const CLUBS = [
     city: 'Liberec',
     color: '#003DA5',
     bg: '#f0f4ff',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/5/5d/FC_Slovan_Liberec_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/slovan-liberec.png',
+    logo: '/logos/slovan-liberec.png',
     keywords: ['Liberec', 'Slovan Liberec', 'FC Liberec'],
   },
   {
@@ -84,8 +77,7 @@ export const CLUBS = [
     city: 'Uh. Hradiště',
     color: '#C8500A',
     bg: '#fff8f0',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/c/c4/FC_Slova%CC%81cko_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/fc-slovacko.png',
+    logo: '/logos/slovacko.png',
     keywords: ['Slovácko', 'FC Slovácko'],
   },
   {
@@ -95,8 +87,7 @@ export const CLUBS = [
     city: 'Ml. Boleslav',
     color: '#005BAC',
     bg: '#f0f6ff',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/7/7c/FK_Mlad%C3%A1_Boleslav_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/mlada-boleslav.png',
+    logo: '/logos/mlada-boleslav.png',
     keywords: ['Mladá Boleslav', 'Mlada Boleslav', 'FK Boleslav'],
   },
   {
@@ -106,8 +97,7 @@ export const CLUBS = [
     city: 'Jablonec n. N.',
     color: '#F7A600',
     bg: '#fffbf0',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/1/16/FK_Jablonec_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/fk-jablonec.png',
+    logo: '/logos/jablonec.png',
     keywords: ['Jablonec', 'FK Jablonec'],
   },
   {
@@ -117,8 +107,7 @@ export const CLUBS = [
     city: 'Teplice',
     color: '#C8A200',
     bg: '#fffdf0',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/5/55/FK_Teplice_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/fk-teplice.png',
+    logo: '/logos/teplice.png',
     keywords: ['Teplice', 'FK Teplice'],
   },
   {
@@ -128,8 +117,7 @@ export const CLUBS = [
     city: 'Karviná',
     color: '#00529B',
     bg: '#f0f6ff',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/d/d6/MFK_Karvin%C3%A1_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/mfk-karvina.png',
+    logo: '/logos/karvina.png',
     keywords: ['Karviná', 'MFK Karviná', 'Karvina'],
   },
   {
@@ -139,8 +127,7 @@ export const CLUBS = [
     city: 'Hradec Králové',
     color: '#CC0000',
     bg: '#fff0f0',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/8/83/FC_Hradec_Kr%C3%A1lov%C3%A9_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/fc-hradec-kralove.png',
+    logo: '/logos/hradec-kralove.png',
     keywords: ['Hradec Králové', 'FC Hradec', 'Hradec Kralove'],
   },
   {
@@ -150,8 +137,7 @@ export const CLUBS = [
     city: 'Č. Budějovice',
     color: '#1A1A1A',
     bg: '#f5f5f5',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/b/b7/SK_Dynamo_%C4%8C._Bud%C4%9Bjovice_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/sk-dynamo.png',
+    logo: '/logos/ceske-budejovice.png',
     keywords: ['Dynamo', 'České Budějovice', 'Dynamo Budějovice'],
   },
   {
@@ -161,8 +147,7 @@ export const CLUBS = [
     city: 'Brno',
     color: '#003DA5',
     bg: '#f0f4ff',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/0/0e/FC_Zbrojovka_Brno_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/fc-zbrojovka-brno.png',
+    logo: '/logos/zbrojovka-brno.png',
     keywords: ['Zbrojovka', 'Zbrojovka Brno', 'FC Zbrojovka', 'brněnští'],
   },
   {
@@ -172,8 +157,7 @@ export const CLUBS = [
     city: 'Praha',
     color: '#8B0000',
     bg: '#fff0f0',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/3/39/FK_Viktoria_%C5%BDi%C5%BEkov_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/fk-viktoria-zizkov.png',
+    logo: '/logos/zizkov.png',
     keywords: ['Žižkov', 'Viktoria Žižkov', 'Zizkov'],
   },
   {
@@ -183,19 +167,35 @@ export const CLUBS = [
     city: 'Praha',
     color: '#CC9900',
     bg: '#fffbf0',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/3/34/FK_Dukla_Praha_logo.svg',
-    logoPng: 'https://www.thesportsdb.com/images/media/team/badge/fk-dukla-praha.png',
+    logo: '/logos/dukla-praha.png',
     keywords: ['Dukla', 'Dukla Praha', 'FK Dukla'],
   },
 ]
 
-export const SOURCES = ['iSport.cz', 'Sport.cz', 'ČT Sport']
+export const SOURCES = ['iSport.cz', 'Sport.cz', 'ČT Sport', 'Oficiální web']
 
 export const SOURCE_STYLES = {
-  'iSport.cz':    { bg: '#FDECEA', color: '#B71C1C' },
-  'Sport.cz':     { bg: '#E3F0FF', color: '#0D47A1' },
-  'Fotbal.cz':    { bg: '#E8F5E9', color: '#1B5E20' },
-  'ČT Sport':     { bg: '#E8EAF6', color: '#1A237E' },
-  'Deník.cz':     { bg: '#FFF3E0', color: '#E65100' },
-  'inFotbal.cz':  { bg: '#E8F5ED', color: '#1A7F3C' },
+  'iSport.cz':       { bg: '#FDECEA', color: '#B71C1C' },
+  'Sport.cz':        { bg: '#E3F0FF', color: '#0D47A1' },
+  'ČT Sport':        { bg: '#E8EAF6', color: '#1A237E' },
+  'Slavia Praha':    { bg: '#FDECEA', color: '#CC0000' },
+  'Sparta Praha':    { bg: '#FDECEA', color: '#AC1A2F' },
+  'Viktoria Plzeň':  { bg: '#E3F0FF', color: '#003087' },
+  'Baník Ostrava':   { bg: '#E3F0FF', color: '#005CA9' },
+  'Sigma Olomouc':   { bg: '#E3F0FF', color: '#003366' },
+  'Bohemians 1905':  { bg: '#E8F5E9', color: '#007A33' },
+  'Slovan Liberec':  { bg: '#E3F0FF', color: '#003DA5' },
+  'FC Slovácko':     { bg: '#FFF3E0', color: '#C8500A' },
+  'Mladá Boleslav':  { bg: '#E3F0FF', color: '#005BAC' },
+  'FK Jablonec':     { bg: '#FFF3E0', color: '#F7A600' },
+  'FK Teplice':      { bg: '#FFFDE7', color: '#C8A200' },
+  'MFK Karviná':     { bg: '#E3F0FF', color: '#00529B' },
+  'Hradec Králové':  { bg: '#FDECEA', color: '#CC0000' },
+  'Dynamo Č.B.':     { bg: '#F5F5F5', color: '#1A1A1A' },
+  'Zbrojovka Brno':  { bg: '#E3F0FF', color: '#003DA5' },
+  'Dukla Praha':     { bg: '#FFFDE7', color: '#CC9900' },
+}
+
+export function getSourceStyle(name) {
+  return SOURCE_STYLES[name] || { bg: '#F3F3F3', color: '#444444' }
 }
