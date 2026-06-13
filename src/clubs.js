@@ -182,7 +182,7 @@ export const CLUBS = [
   },
 ]
 
-export const SOURCES = ['iSport.cz', 'Sport.cz', 'ČT Sport', 'EuroFotbal.cz', 'ČeskéNoviny.cz', 'iDnes.cz']
+export const SOURCES = ['iSport.cz', 'Sport.cz', 'ČT Sport', 'EuroFotbal.cz', 'iDnes.cz', 'Deník.cz', 'Baník Ostrava']
 
 export const SOURCE_STYLES = {
   'iSport.cz':       { bg: '#FDECEA', color: '#B71C1C' },
@@ -205,8 +205,8 @@ export const SOURCE_STYLES = {
   'Zbrojovka Brno':  { bg: '#E3F0FF', color: '#003DA5' },
   'Dukla Praha':     { bg: '#FFFDE7', color: '#CC9900' },
   'EuroFotbal.cz':  { bg: '#F3E5F5', color: '#6A1B9A' },
-  'ČeskéNoviny.cz': { bg: '#FFEBEE', color: '#C62828' },
   'iDnes.cz':       { bg: '#FFEBEE', color: '#D32F2F' },
+  'Google News':    { bg: '#E8F0FE', color: '#1A73E8' },
 }
 
 export function getSourceStyle(name) {
