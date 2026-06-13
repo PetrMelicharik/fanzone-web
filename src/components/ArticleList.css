@@ -184,6 +184,7 @@
 
 .state-wrap.error { color: #CC0000; }
 .error-hint { font-size: 13px; color: #8E8E93; margin-top: 8px; }
+.loading-hint { font-size: 12px; color: #C7C7CC; margin-top: 6px; }
 
 .spinner {
   width: 32px;

@@ -71,6 +71,7 @@ export default function ArticleList({ club }) {
         <div className="state-wrap">
           <div className="spinner" />
           <p>Načítám aktuální články…</p>
+          <p className="loading-hint">Může to chvíli trvat při prvním načtení</p>
         </div>
       )}
 
