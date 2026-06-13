@@ -11,9 +11,8 @@ export default function App() {
       <header className="app-header">
         <div className="app-header-inner">
           <div className="app-logo" onClick={() => setSelectedClub(null)} style={{ cursor: 'pointer' }}>
-            <img src="/logo.png" alt="Fanzone logo" className="app-logo-img" />
-            <div>
-              <div className="app-logo-title">Fanzone</div>
+            <img src="/logo.png" alt="Fanzone" className="app-logo-img" />
+            <div className="app-logo-text">
               <div className="app-logo-sub">Zprávy z české fotbalové ligy</div>
             </div>
           </div>
@@ -34,8 +33,11 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        <div>
-          <span>Fanzone</span> · Zprávy z iSport.cz · Sport.cz · Fotbal.cz · ČT Sport · Deník.cz · inFotbal.cz
+        <div className="app-footer-inner">
+          <img src="/logo.png" alt="Fanzone" className="footer-logo" />
+          <div className="footer-sources">
+            iSport.cz · Sport.cz · ČT Sport · EuroFotbal.cz · ČeskéNoviny.cz · iDnes.cz
+          </div>
         </div>
       </footer>
     </div>
