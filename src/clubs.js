@@ -182,7 +182,7 @@ export const CLUBS = [
   },
 ]
 
-export const SOURCES = ['iSport.cz', 'Sport.cz', 'ČT Sport', 'EuroFotbal.cz', 'iDnes.cz', 'Deník.cz', 'Baník Ostrava']
+export const SOURCES = ['iSport.cz', 'Sport.cz', 'ČT Sport', 'EuroFotbal.cz', 'iDnes.cz']
 
 export const SOURCE_STYLES = {
   'iSport.cz':       { bg: '#FDECEA', color: '#B71C1C' },
@@ -191,7 +191,6 @@ export const SOURCE_STYLES = {
   'Slavia Praha':    { bg: '#FDECEA', color: '#CC0000' },
   'Sparta Praha':    { bg: '#FDECEA', color: '#AC1A2F' },
   'Viktoria Plzeň':  { bg: '#E3F0FF', color: '#003087' },
-  'Baník Ostrava':   { bg: '#E3F0FF', color: '#005CA9' },
   'Sigma Olomouc':   { bg: '#E3F0FF', color: '#003366' },
   'Bohemians 1905':  { bg: '#E8F5E9', color: '#007A33' },
   'Slovan Liberec':  { bg: '#E3F0FF', color: '#003DA5' },
